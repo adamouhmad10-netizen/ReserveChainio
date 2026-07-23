@@ -47,3 +47,6 @@ apps/web/scripts/shot-hero.mjs
 apps/web/scripts/shot-m.mjs
 apps/web/scripts/shots.mjs
 apps/web/scripts/qa-home.mjs
+
+# TypeScript incremental build cache
+*.tsbuildinfo
