@@ -1,0 +1,49 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# builds
+.next/
+out/
+dist/
+build/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+.expo/
+
+# runtime data (demo SQLite database — recreated and reseeded automatically)
+apps/web/data/*.db
+apps/web/data/*.db-journal
+apps/web/data/*.db-wal
+apps/web/data/*.db-shm
+
+# environment — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+*.pem
+.vscode/
+.idea/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Confidential — Master Developer Instructions are "Developer Use Only" and
+# must never be published. This repository is public; keep the PDF local only.
+*ReserveChain_Final_Master_Developer_Instructions*.pdf
+
+# Throwaway ad-hoc QA capture scripts (visual-qa.mjs is the kept, reusable one)
+apps/web/scripts/diag.mjs
+apps/web/scripts/shot.mjs
+apps/web/scripts/shot-hero.mjs
+apps/web/scripts/shot-m.mjs
+apps/web/scripts/shots.mjs
+apps/web/scripts/qa-home.mjs

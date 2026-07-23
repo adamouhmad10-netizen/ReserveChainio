@@ -1,0 +1,17 @@
+{
+  "name": "reservechain-ecosystem",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ReserveChain.io — institutional industrial-metals RWA tokenization ecosystem (prelaunch working draft)",
+  "scripts": {
+    "dev": "pnpm --filter @reservechain/web dev",
+    "build": "pnpm --filter @reservechain/web build",
+    "start": "pnpm --filter @reservechain/web start",
+    "test": "pnpm --filter @reservechain/web test && pnpm --filter @reservechain/contracts test",
+    "test:web": "pnpm --filter @reservechain/web test",
+    "test:contracts": "pnpm --filter @reservechain/contracts test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
